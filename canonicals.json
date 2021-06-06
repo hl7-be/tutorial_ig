@@ -1,0 +1,16 @@
+[
+  {
+    "id": "hl7.be.fhir.med-sched",
+    "type": "ImplementationGuide",
+    "url": "http://hl7belgium.org/fhir/med_sched/ImplementationGuide/hl7.be.fhir.med-sched",
+    "version": "0.1.0",
+    "name": "MedicationSchedule"
+  },
+  {
+    "id": "MedicationSchedule",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/med_sched/StructureDefinition/MedicationSchedule",
+    "version": "0.1.0",
+    "name": "MedicationSchedule"
+  }
+]

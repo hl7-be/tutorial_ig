@@ -1,0 +1,18 @@
+﻿MedicationSchedule : Validation Results
+=========================================
+
+err = 1, warn = 1, info = 0
+IG Publisher Version: 1.1.73
+Generated Sun Jun 06 21:03:46 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.med-sched#0.1.0 (canonical = http://hl7belgium.org/fhir/med_sched)
+
+ Build Errors : 1 / 0 / 0
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedicationSchedule : 0 / 1 / 1
+ /github/workspace/input/med_sched : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedicationSchedule.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+== /github/workspace/fsh-generated/resources/StructureDefinition-MedicationSchedule.json ==
+INFORMATION: StructureDefinition/MedicationSchedule: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://hl7belgium.org/fhir/med_sched/StructureDefinition/MedicationSchedule'): The Implementation Guide contains no examples for this profile
+== /github/workspace/input/med_sched.xml ==
+INFORMATION: ImplementationGuide/hl7.be.fhir.med-sched: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.BE.FHIR.MED-SCHED\Use Cases covered by this Implementation Guide - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7-be.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+        <div id="project-nav">
+          <a id="project-logo" no-external="true" href="http://hl7.be">
+            <img height="71" alt="Project home" src="assets/images/home.png"/>
+          </a>
+        </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="70" alt="FHIR website" src="assets/images/fire.png"/> </a>
+        </div>
+
+<!-- search icon - if you want -->
+<!--
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+-->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Medication Administration Schedule</span><br/>0.1.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul
+	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+	<li>
+		<a href="index.html">IG Home</a>
+	</li>
+	<li>
+		<a href="toc.html">Table of Contents</a>
+	</li>
+<!--
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
+		</a>
+
+-->
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="scope.html">Scope</a>
+			</li>
+			<li>
+				<a href="usecases.html">Use Cases</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="artifacts.html">Artifact Index</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+			<li><a href="downloads.html">Downloads</a></li>
+		</ul>
+	</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Use Cases covered by this Implementation Guide</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Medication Administration Schedule - Local Development build (v0.1.0). See the <a href="http://hl7belgium.org/fhir/med_sched/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Use Cases covered by this Implementation Guide</h2>
+  
+  <div xmlns="http://www.w3.org/1999/xhtml">
+
+<p>These are the use cases supported by this Implementation Guide:</p>
+
+<a name="1"/><h3 id="nurse-homecare">Nurse schedule for home care</h3>  <a name="nurse-homecare">  </a>
+<p>In this use case, the user (a nurse) prepares the visit to a patient in home care by consulting the scheduled administrations for a patient. This synchronization ensures that the nurse is up to date with latest medication changes.</p>
+<p>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="513px" preserveAspectRatio="none" style="width:687px;height:513px;" version="1.1" viewBox="0 0 687 513" width="687px" zoomAndPan="magnify"><defs><filter height="300%" id="f14c251v3p7yo9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f14c251v3p7yo9)" height="88.3984" style="stroke:#000000;stroke-width:2.0;" width="372" x="3" y="105.2969"/><rect fill="#FFFFFF" filter="url(#f14c251v3p7yo9)" height="148.7969" style="stroke:#000000;stroke-width:2.0;" width="634" x="39.5" y="235.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="132.5" x2="132.5" y1="88.2969" y2="200.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="132.5" x2="132.5" y1="200.6953" y2="228.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="132.5" x2="132.5" y1="228.6953" y2="391.4922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="132.5" x2="132.5" y1="391.4922" y2="419.4922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="132.5" x2="132.5" y1="419.4922" y2="429.4922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="441.5" x2="441.5" y1="88.2969" y2="200.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="441.5" x2="441.5" y1="200.6953" y2="228.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="441.5" x2="441.5" y1="228.6953" y2="391.4922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="441.5" x2="441.5" y1="391.4922" y2="419.4922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="441.5" x2="441.5" y1="419.4922" y2="429.4922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="639.5" x2="639.5" y1="88.2969" y2="200.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="639.5" x2="639.5" y1="200.6953" y2="228.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="639.5" x2="639.5" y1="228.6953" y2="391.4922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="639.5" x2="639.5" y1="391.4922" y2="419.4922"/><line style="stroke:#A80036;stroke-width:1.0;" x1="639.5" x2="639.5" y1="419.4922" y2="429.4922"/><rect fill="#FEFECE" filter="url(#f14c251v3p7yo9)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="163" x="49.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="56.5" y="72.9951">Medication Scheduler</text><rect fill="#FEFECE" filter="url(#f14c251v3p7yo9)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="163" x="49.5" y="428.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="56.5" y="448.4873">Medication Scheduler</text><rect fill="#FEFECE" filter="url(#f14c251v3p7yo9)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="263" x="308.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="315.5" y="72.9951">Medication Administration Recorded</text><rect fill="#FEFECE" filter="url(#f14c251v3p7yo9)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="263" x="308.5" y="428.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="315.5" y="448.4873">Medication Administration Recorded</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="616.5" y="84.9951">Nurse</text><ellipse cx="640" cy="15" fill="#FEFECE" filter="url(#f14c251v3p7yo9)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M640,23 L640,50 M627,31 L653,31 M640,50 L627,65 M640,50 L653,65 " fill="none" filter="url(#f14c251v3p7yo9)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="616.5" y="441.4873">Nurse</text><ellipse cx="640" cy="454.7891" fill="#FEFECE" filter="url(#f14c251v3p7yo9)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M640,462.7891 L640,489.7891 M627,470.7891 L653,470.7891 M640,489.7891 L627,504.7891 M640,489.7891 L653,504.7891 " fill="none" filter="url(#f14c251v3p7yo9)" style="stroke:#A80036;stroke-width:2.0;"/><path d="M3,105.2969 L196,105.2969 L196,112.2969 L186,122.2969 L3,122.2969 L3,105.2969 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="88.3984" style="stroke:#000000;stroke-width:2.0;" width="372" x="3" y="105.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="148" x="18" y="118.3638">Calculate Schedules</text><polygon fill="#A80036" points="121,139.5625,131,143.5625,121,147.5625,125,143.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="0" x2="127" y1="143.5625" y2="143.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="7" y="138.4966">Get Prescription</text><line style="stroke:#A80036;stroke-width:1.0;" x1="133" x2="175" y1="172.6953" y2="172.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="175" x2="175" y1="172.6953" y2="185.6953"/><line style="stroke:#A80036;stroke-width:1.0;" x1="134" x2="175" y1="185.6953" y2="185.6953"/><polygon fill="#A80036" points="144,181.6953,134,185.6953,144,189.6953,140,185.6953" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="140" y="167.6294">Calculate administration schedules</text><path d="M39.5,235.6953 L182.5,235.6953 L182.5,242.6953 L172.5,252.6953 L39.5,252.6953 L39.5,235.6953 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="148.7969" style="stroke:#000000;stroke-width:2.0;" width="634" x="39.5" y="235.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="98" x="54.5" y="248.7622">Get Schedule</text><polygon fill="#A80036" points="453,269.9609,443,273.9609,453,277.9609,449,273.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="447" x2="639" y1="273.9609" y2="273.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="459" y="268.895">Refresh</text><polygon fill="#A80036" points="144,299.0938,134,303.0938,144,307.0938,140,303.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="138" x2="441" y1="303.0938" y2="303.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="285" x="150" y="298.0278">Query scheduled medication administrations</text><polygon fill="#A80036" points="430,328.2266,440,332.2266,430,336.2266,434,332.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="133" x2="436" y1="332.2266" y2="332.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="140" y="327.1606">Return medication administrations</text><polygon fill="#A80036" points="628,372.4922,638,376.4922,628,380.4922,632,376.4922" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="442" x2="634" y1="376.4922" y2="376.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="449" y="356.2935">Display scheduled</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="449" y="371.4263">medication administrations</text></g></svg>
+</p>
+
+
+</div>
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">Hl7 Belgium</a>.  Package hl7.be.fhir.med-sched#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jun 6, 2021 21:03+0000">2021-06-06</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://github.com/hl7-be/tutorial_ig/projects/1">Issues</a> |<a style="color: #81BEF7" target="_blank" href="https://github.com/hl7-be/tutorial_ig/issues/new">Submit issue</a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7belgium.org/fhir/med_sched/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+
+
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript -->
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
