@@ -1,0 +1,12 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+
+<p>These are the use cases supported by this Implementation Guide:</p>
+
+<h3 id="nurse-homecare">Nurse schedule for home care</h3>  <a name="nurse-homecare"> </a>
+<p>In this use case, the user (a nurse) prepares the visit to a patient in home care by consulting the scheduled administrations for a patient. This synchronization ensures that the nurse is up to date with latest medication changes.</p>
+<p>
+{% include med_sched-usecase1.svg %}
+</p>
+
+
+</div>

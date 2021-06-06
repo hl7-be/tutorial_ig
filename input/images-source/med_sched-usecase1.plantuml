@@ -1,0 +1,21 @@
+@startuml
+participant "Medication Scheduler" as MAS
+participant "Medication Administration Recorded" as MAR
+actor "Nurse" as n
+
+group Calculate Schedules
+--> MAS: Get Prescription
+MAS -> MAS: Calculate administration schedules
+end
+
+...
+
+group Get Schedule
+n -> MAR : Refresh
+MAR -> MAS: Query scheduled medication administrations
+MAS -> MAR: Return medication administrations
+MAR -> n: Display scheduled\nmedication administrations
+end
+...
+
+@enduml 
