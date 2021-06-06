@@ -52,6 +52,11 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="scope.html"/>
+        <title value="Functional Scope"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
