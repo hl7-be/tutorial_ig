@@ -1,1 +1,10 @@
-#---
+---
+feedback:
+  - active: true
+    dashboard: 
+      label: Issues
+      url: https://github.com/hl7-be/tutorial_ig/projects/1
+  - active: true
+    dashboard: 
+      label: Submit issue
+      url: https://github.com/hl7-be/tutorial_ig/issues/new
