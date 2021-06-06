@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="xxxexample.fhir.uv.myig"/>
+  <id value="med_sched"/>
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+  <url value="http://hl7belgium.org/fhir/med_sched/ImplementationGuide/med_sched"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-  <version value="0.1.0-test"/>
-  <name value="xxxYourComputableMyIGNameHere"/>
-  <title value="xxxYour User Friendly Name for MyIG Here"/>
+  <version value="0.1.0"/>
+  <name value="MedicationSchedule"/>
+  <title value="Medication Administration Schedule"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="xxxYour Work Group"/>
+  <publisher value="Hl7 Belgium"/>
   <contact>
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+      <value value="http://hl7belgium.org"/>
     </telecom>
   </contact>
-  <description value="xxxA brief description of what this IG is about "/>
+  <description value="An Implementation Guide for exchanging medication administration schedules"/>
   <jurisdiction>
     <!-- This will drive SNOMED release used -->
     <coding>
@@ -33,7 +33,7 @@
       -->
     </coding>
   </jurisdiction>
-  <packageId value="xxxexample.fhir.uv.myig"/>
+  <packageId value="hl7.be.fhir.med-sched"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
