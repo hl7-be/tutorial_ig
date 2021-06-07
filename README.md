@@ -1,6 +1,7 @@
-Empty IG
+Tutorial IG - June 2021
 ---
-This is an empty IG
+This Implementation Guide demonstrates some of the practices to accelerate the development of FHIR Implementation Guides.
+
 <br> </br>
 ###
 ### Publication
