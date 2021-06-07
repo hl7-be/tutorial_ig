@@ -25,7 +25,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "MedicationSchedule"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-06T21:03:29+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-07T07:22:13+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Hl7 Belgium"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
